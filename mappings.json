@@ -356,5 +356,129 @@
       "Paver":["Concrete"],
       "Siding":["Panel"]
     }
+  },
+  "Coatings":{
+    "Acrylic":{
+      "Base Coat":["Liquids"],
+      "Color Flakes":["Granular"],
+      "Finish Coat":["Liquids"],
+      "Maintenance Coatings":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Roof Coating":["Liquids", "Polymer"],
+      "Sealant":["Liquids", "Polymer"],
+      "Waterproofing System":["Liquids"]
+    },
+    "Alkyd":{
+      "Primers/Treatments":["Liquids"]
+    },
+    "Aluminum":{
+      "Roof Coating":["Liquids"]
+    },
+    "Aluminum Emulsion":{
+      "Maintenance Coatings":["Liquids"],
+      "Primers/Treatments":["Liquids"]
+    },
+    "Asphalt Rubberized":{
+      "Roof Coating":["Liquids"],
+      "Sealant":["Liquids"],
+      "Waterproofing System":["Liquids"]
+    },
+    "Asphaltic":{
+      "Adhesion":["Liquids"],
+      "Flashing":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Roof Coating":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "Asphaltic-Composite Reinforced":{
+      "Sealant":["Liquids"]
+    },
+    "Coal Tar":{
+      "Primers/Treatments":["Liquids"],
+      "Roof Coating":["Liquids"]
+    },
+    "Curing Compound":{
+      "Primers/Treatments":["Liquids"]
+    },
+    "Epoxy":{
+      "Finish Coat":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Sealant":["Liquids"],
+      "Vapor Retarder": ["Liquids"]
+    },
+    "Neoprene":{
+      "Flashing":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Roof Coating":["Liquids"]
+    },
+    "Other":{
+      "Primers/Treatments":["Liquids"]
+    },
+    "Other/Not Listed":{
+      "Base Coat":["Liquids"],
+      "Maintenance Coatings":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Roof Coating":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "Polymer":{
+      "Base Coat":["Liquids"],
+      "Color Flakes":["Granular"],
+      "Finish Coat":["Liquids"],
+      "Maintenance Coatings":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Roof Coating":["Liquids", "Polymer"],
+      "Sealant":["Liquids"],
+      "Waterproofing System":["Liquids"]
+    },
+    "Polyurea":{
+      "Finish Coat":["Liquids"]
+    },
+    "Polyurethane":{
+      "Base Coat":["Liquids"],
+      "Finish Coat":["Liquids"],
+      "Flashing":["Liquids"],
+      "Maintenance Coatings":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Protection Course":["Liquids"],
+      "Roof Coating":["Liquids"],
+      "Sealant":["Liquids"],
+      "Waterproofing System":["Liquids"]
+    },
+    "SBS":{
+      "Primers/Treatments":["Liquids"],
+      "Roof Coating":["Liquids"]
+    },
+    "SEBS":{
+      "Primers/Treatments":["Liquids"],
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "Silicone":{
+      "Maintenance Coatings":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Protection Course":["Liquids"],
+      "Roof Coating":["Liquids"],
+      "Sealant":["Liquids"],
+      "Waterproofing System":["Liquids"]
+    },
+    "Solvent-Based":{
+      "Adhesion":["Liquids"],
+      "Base Coat":["Liquids"],
+      "Finish Coat":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Roof Coating":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "Synthetic":{
+      "Primers/Treatments":["Liquids"]
+    },
+    "Water-Based":{
+      "Base Coat":["Liquids"],
+      "Finish Coat":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Roof Coating":["Liquids"],
+      "Sealant":["Liquids"],
+      "Waterproofing System":["Liquids"]
+    }
   }
 }
