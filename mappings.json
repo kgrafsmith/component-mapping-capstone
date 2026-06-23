@@ -141,5 +141,59 @@
       "Primers/Treatments":["Liquids"],
       "Sealant":["Liquids"]
     }
+  },
+  "Asphaltic":{
+    "APP-Fiberglass Reinforced":{
+      "Base Ply":["Roll Goods"],
+      "Ply":["Roll Goods"]
+    },
+    "Asphalt Hot":{
+      "Adhesion":["Liquids"]
+    },
+    "Asphaltic":{
+      "Anchor/Base Sheet": ["Roll Goods"],
+      "Flashing":["Liquids"],
+      "Maintenance Coatings":["Liquids"],
+      "Vapor Retarder": ["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "Asphaltic-Composite Reinforced":{
+      "Base Ply":["Roll Goods"],
+      "Ply":["Roll Goods"]
+    },
+    "Asphaltic-Fiberglass Reinforced":{
+      "Anchor/Base Sheet": ["Roll Goods"],
+      "Base Ply":["Roll Goods"],
+      "Base Sheet":["Roll Goods"],
+      "Cap Ply":["Roll Goods"],
+      "Flashing":["Roll Goods"],
+      "Ply":["Roll Goods"],
+      "Roof Cover":["Roll Goods"]
+    },
+    "Asphaltic-Polyester Reinforced":{
+      "Anchor/Base Sheet": ["Roll Goods"],
+      "Base Ply":["Roll Goods"],
+      "Ply":["Roll Goods"]
+    },
+    "SBS-Fiberglass Reinforced":{
+      "Cap Ply":["Roll Goods"]
+    },
+    "SBS-Polyester Reinforced":{
+      "Cap Ply":["Roll Goods"]
+    },
+    "Silicone":{
+      "Maintenance Coatings":["Liquids"],
+      "Penetration Seal Curb":["Liquids"],
+      "Protection Course":["Liquids"],
+      "Sealant":["Liquids"],
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "Solvent-Based":{
+      "Flashing":["Liquids"],
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "Water-Based":{
+      "Primers/Treatments":["Liquids"]
+    }
   }
 }
