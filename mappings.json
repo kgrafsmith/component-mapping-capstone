@@ -24,7 +24,7 @@
       "Flashing Accessories":["Cement"],
       "Sealant": ["Cement", "Liquids"],
       "Waterproofing System":["Cement", "Liquids"],
-      "Water-Resistive Barrier":["Cement", "Liquids"]
+      "Water-Resistive Barrier (WRB)":["Cement", "Liquids"]
     },
     "Asphaltic-Composite Reinforced":{
       "Adhesion": ["Liquids"],
@@ -41,6 +41,105 @@
     },
     "Cementitious Wood Fiber":{
        "Adhesion": ["Liquids"]
+    },
+    "Coal Tar":{
+       "Adhesion": ["Liquids"]
+    },
+    "Curing Compount":{
+       "Additive": ["Liquids"]
+    },
+    "EPDM":{
+       "Sealant": ["Liquids"]
+    },
+    "Epoxy":{
+       "Adhesion": ["Liquids"]
+    },
+    "Fiber Cement":{
+       "Adhesion": ["Cement"],
+       "Flashing Accessories": ["Cement"],
+       "Sealant": ["Cement"]
+    },
+    "Modified Bitumen":{
+       "Adhesion": ["Liquids"],
+       "Sealant": ["Liquids"]
+    },
+    "Neoprene":{
+      "Adhesion":["Cement", "Liquids"]
+    },
+    "Other/Not Listed":{
+      "Adhesion":["Liquids"],
+      "Flashing":["Roll Goods"],
+      "Sealant":["Liquids"],
+      "Vapor Barrier":["Roll Goods"],
+      "Vapor Retarder": ["Roll Goods"]
+    },
+    "PMMA":{
+      "Adhesion":["Cement"],
+      "Catalyst":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "Polyether":{
+      "Adhesion": ["Liquids"],
+      "Sealant":["Liquids", "Polymer"]
+    },
+    "Polyisocyanurate":{
+       "Additive": ["Liquids"]
+    },
+    "Polymer":{
+      "Additive":["Liquids"],
+      "Adhesion":["Granular", "Liquids", "Roll Goods"],
+      "Flashing Accessories":["Cement"],
+      "Sealant":["Cement", "Liquids", "Polymer"],
+      "Vapor Barrier":["Roll Goods"]
+    },
+    "Polyurethane":{
+      "Adhesion":["Liquids", "Polymer"],
+      "Sealant":["Liquids"]
+    },
+    "Portland Cement":{
+      "Adhesion":["Granular", "Powder"]
+    },
+    "SBS":{
+      "Adhesion":["Liquids"],
+      "Sealant":["Liquids"],
+      "Vapor Barrier":["Roll Goods"]
+    },
+    "SEBS":{
+      "Adhesion":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "Silicone":{
+      "Adhesion":["Liquids"],
+      "Flashing":["Roll Goods"],
+      "Sealant":["Liquids"],
+      "Vapor Barrier":["Roll Goods"],
+      "Vapor Retarder": ["Roll Goods"]
+    },
+    "Solvent-Based":{
+      "Adhesion":["Cement", "Liquids"],
+      "Flashing":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Sealant":["Cement","Liquids"],
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "Spray Foam-Polyurethane":{
+      "Adhesion":["Liquids"]
+    },
+    "STPE":{
+      "Adhesion":["Liquids"]
+    },
+    "Synthetic":{
+      "Adhesion":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "TPO":{
+      "Adhesion":["Roll Goods"]
+    },
+    "Water-Based":{
+      "Adhesion":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Sealant":["Liquids"]
     }
   }
 }
