@@ -302,5 +302,59 @@
     "Synthetic, Woven":{
       "Vapor Barrier":["Roll Goods"]
     }
+  },
+  "Cladding":{
+    "Aluminum":{
+      "Flashing":["Panel"],
+      "Roof Panel":["Panel"],
+      "Siding":["Metal"]
+    },
+    "Concrete":{
+      "Siding":["Panel"]
+    },
+    "Fiber Cement":{
+      "Siding":["Lap-Siding"],
+      "Soffit":["Panel"]
+    },
+    "Galvalume":{
+      "Roof Panel":["Panel"],
+      "Siding":["Panel"]
+    },
+    "Galvanized":{
+      "Flashing":["Panel"],
+      "Roof Panel":["Panel"]
+    },
+    "Metal":{
+      "Siding":["Metal", "Panel"]
+    },
+    "Other/Not Listed":{
+      "Siding": ["Other"]
+    },
+    "Polyisocyanurate":{
+      "Insulation, Cast-In-Place":["Panel"],
+      "Siding":["Panel"]
+    },
+    "Polyvinyl Chloride (PVC)":{
+      "Soffit":["Panel"]
+    },
+    "PVC":{
+      "Siding":["Panel"],
+      "Soffit":["Panel"]
+    },
+    "Recycled Fiber and Plastic":{
+      "Drainage":["Pre-Assembled"]
+    },
+    "Stainless Steel":{
+      "Flashing":["Panel"],
+      "Insulation, Cast-In-Place":["Panel"],
+      "Siding":["Panel"]
+    },
+    "Steel":{
+      "Roof Panel":["Panel"]
+    },
+    "Stones":{
+      "Paver":["Concrete"],
+      "Siding":["Panel"]
+    }
   }
 }
