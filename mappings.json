@@ -1,0 +1,46 @@
+{
+  "Adhesives/Cements": {
+    "Acrylic": {
+      "Adhesion": ["Liquids"],
+      "Sealant": ["Cement", "Liquids"]
+    },
+    "Asphalt Emulsion": {
+      "Adhesion": ["Liquids"]
+    },
+    "Asphalt Hot":{
+      "Adhesion": ["Liquids"],
+      "Sealant": ["Liquids"]
+    },
+    "Asphalt Rubberized":{
+      "Adhesion":["Cement", "Liquids"],
+      "Flashing Accessories":["Cement"],
+      "Sealant":["Cement"],
+      "Waterproofing System":["Liquids"],
+      "Water-Resistive Barrier":["Cement"]
+    },
+    "Asphaltic":{
+      "Adhesion":["Cement", "Liquids"],
+      "Flashing":["Cement", "Liquids"],
+      "Flashing Accessories":["Cement"],
+      "Sealant": ["Cement", "Liquids"],
+      "Waterproofing System":["Cement", "Liquids"],
+      "Water-Resistive Barrier":["Cement", "Liquids"]
+    },
+    "Asphaltic-Composite Reinforced":{
+      "Adhesion": ["Liquids"],
+      "Flashing Accessories":["Liquids"],
+      "Maintenance Coatings":["Cement"]
+    },
+    "Butyl":{
+      "Adhesion": ["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "Cement":{
+      "Adhesion":["Cement", "Liquids"],
+      "Maintenance Coatings":["Cement"]
+    },
+    "Cementitious Wood Fiber":{
+       "Adhesion": ["Liquids"]
+    }
+  }
+}
