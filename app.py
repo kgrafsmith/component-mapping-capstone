@@ -83,13 +83,17 @@ st.dataframe(results)
 
 import pandas as pd
 from datetime import datetime
+import os
 
 st.divider()
 st.subheader("Don't see your mapping? Request it here")
 
-# Initialize session storage
-if "requests" not in st.session_state:
-    st.session_state.requests = []
+file_path = "help_requests.csv"
+
+# Ensure file exists
+if not os.path.exists(file_path):
+    df_init = pd.DataFrame(columns=["timestamp", "component", "mapping_request"])
+    df_init.to_csv(file_path, index=False)
 
 with st.form("ticket_form"):
     component = st.text_input("Component Name")
@@ -99,33 +103,22 @@ with st.form("ticket_form"):
 if submitted:
     if component and mapping_request:
 
-        new_row = {
+        new_row = pd.DataFrame([{
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "component": component,
             "mapping_request": mapping_request
-        }
+        }])
 
-        st.session_state.requests.append(new_row)
+        df = pd.read_csv(file_path)
+        df = pd.concat([df, new_row], ignore_index=True)
+        df.to_csv(file_path, index=False)
 
-        st.success("Request added!")
+        st.success("Request saved!")
     else:
         st.error("Please fill out both fields.")
 
-# Convert to DataFrame
-df = pd.DataFrame(st.session_state.requests)
-
+# ALWAYS reload file (this is the key fix)
 st.subheader("All Requests")
 
-if not df.empty:
-    st.dataframe(df)
-
-    # Download as Excel
-    excel_file = "help_requests.xlsx"
-    df.to_excel(excel_file, index=False)
-
-    with open(excel_file, "rb") as f:
-        st.download_button(
-            "Download Excel File",
-            f,
-            file_name="help_requests.xlsx"
-        )
+df = pd.read_csv(file_path)
+st.dataframe(df)
