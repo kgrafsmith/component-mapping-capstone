@@ -83,10 +83,13 @@ st.dataframe(results)
 
 import pandas as pd
 from datetime import datetime
-import os
 
 st.divider()
 st.subheader("Don't see your mapping? Request it here")
+
+# Initialize session storage
+if "requests" not in st.session_state:
+    st.session_state.requests = []
 
 with st.form("ticket_form"):
     component = st.text_input("Component Name")
@@ -102,17 +105,27 @@ if submitted:
             "mapping_request": mapping_request
         }
 
-        file_path = "help_requests.csv"
+        st.session_state.requests.append(new_row)
 
-        # If file exists, append; otherwise create it
-        if os.path.exists(file_path):
-            df = pd.read_csv(file_path)
-            df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
-        else:
-            df = pd.DataFrame([new_row])
-
-        df.to_csv(file_path, index=False)
-
-        st.success("Request submitted successfully!")
+        st.success("Request added!")
     else:
         st.error("Please fill out both fields.")
+
+# Convert to DataFrame
+df = pd.DataFrame(st.session_state.requests)
+
+st.subheader("All Requests")
+
+if not df.empty:
+    st.dataframe(df)
+
+    # Download as Excel
+    excel_file = "help_requests.xlsx"
+    df.to_excel(excel_file, index=False)
+
+    with open(excel_file, "rb") as f:
+        st.download_button(
+            "Download Excel File",
+            f,
+            file_name="help_requests.xlsx"
+        )
