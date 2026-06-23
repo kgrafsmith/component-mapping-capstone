@@ -195,5 +195,112 @@
     "Water-Based":{
       "Primers/Treatments":["Liquids"]
     }
+  },
+  "Barrier":{
+    "APP-Fiberglass Reinforced":{
+      "Vapor Barrier":["Roll Goods"]
+    },
+    "Asphalt Rubberized":{
+      "Air Barrier":["Roll Goods"],
+      "Vapor Barrier":["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Liquids", "Polymer"]
+    },
+    "Asphaltic":{
+      "Maintenance Coatings":["Liquids"],
+      "Vapor Barrier":["Roll Goods"]
+    },
+    "Asphaltic-Composite Reinforced":{
+      "Flashing":["Roll Goods"],
+      "Underlayment":["Roll Goods"]
+    },
+    "Asphaltic-Fiberglass Reinforced":{
+      "Water-Resistive Barrier (WRB)":["Board Stock"]
+    },
+    "Epoxy":{
+      "Vapor Barrier":["Liquids"],
+      "Vapor Retarder": ["Liquids"]
+    },
+    "Kraft Paper":{
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "Other/Not Listed":{
+      "Air Barrier":["Joint Cover","Roll Goods"],
+      "Vapor Barrier":["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "Polyester-Uncoated":{
+      "Vapor Barrier":["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "Polymer":{
+      "Vapor Barrier":["Roll Goods"],
+      "Vapor Retarder": ["Roll Goods"]
+    },
+    "Polypropylene (PP)":{
+       "Air Barrier":["Panel","Roll Goods"],
+       "Roof Cover":["Roll Goods"],
+       "Vapor Barrier":["Roll Goods"],
+       "Water-Resistive Barrier (WRB)":["Panel","Roll Goods"]
+    },
+    "Polyurethane":{
+      "Flashing":["Liquids"]
+    },
+    "SBS":{
+      "Air Barrier":["Roll Goods"],
+      "Vapor Barrier":["Roll Goods"]
+    },
+    "SBS-Composite Reinforced":{
+      "Air Barrier":["Roll Goods"],
+      "Vapor Barrier":["Roll Goods"],
+      "Vapor Retarder": ["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "SBS-Fiberglass Reinforced":{
+      "Vapor Barrier":["Roll Goods"]
+    },
+    "SBS-Polyester Reinforced":{
+      "Base Sheet":["Panel"],
+      "Coverboard":["Panel"],
+      "Vapor Barrier":["Roll Goods"],
+      "Vapor Retarder": ["Roll Goods"]
+    },
+    "SEBS":{
+      "Sealant":["Liquids"],
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "Silicone":{
+      "Maintenance Coatings":["Liquids"],
+      "Penetration Seal Curb":["Liquids"],
+      "Protection Course":["Liquids"],
+      "Sealant":["Liquids"],
+      "Vapor Barrier":["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "Solvent-Based":{
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "Spray Foam-Polyurethane":{
+      "Vapor Barrier":["Liquids"]
+    },
+    "STPE":{
+      "Vapor Barrier":["Liquids"]
+    },
+    "Synthetic":{
+      "Air Barrier":["Roll Goods"],
+      "Vapor Barrier":["Roll Goods"],
+      "Vapor Retarder": ["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "Synthetic, Composite":{
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "Synthetic, Spun-Bond":{
+      "Air Barrier":["Roll Goods"],
+      "Slip Sheet":["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "Synthetic, Woven":{
+      "Vapor Barrier":["Roll Goods"]
+    }
   }
 }
