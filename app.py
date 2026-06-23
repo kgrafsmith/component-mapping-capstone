@@ -81,44 +81,12 @@ st.subheader("Table View: Valid Component Mappings")
 st.dataframe(results)
 
 
-import pandas as pd
-from datetime import datetime
-import os
-
 st.divider()
-st.subheader("Don't see your mapping? Request it here")
+st.subheader("Don't see your mapping? Submit a request")
 
-file_path = "help_requests.csv"
-
-# Ensure file exists
-if not os.path.exists(file_path):
-    df_init = pd.DataFrame(columns=["timestamp", "component", "mapping_request"])
-    df_init.to_csv(file_path, index=False)
-
-with st.form("ticket_form"):
-    component = st.text_input("Component Name")
-    mapping_request = st.text_area("What mapping do you need?")
-    submitted = st.form_submit_button("Submit Request")
-
-if submitted:
-    if component and mapping_request:
-
-        new_row = pd.DataFrame([{
-            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "component": component,
-            "mapping_request": mapping_request
-        }])
-
-        df = pd.read_csv(file_path)
-        df = pd.concat([df, new_row], ignore_index=True)
-        df.to_csv(file_path, index=False)
-
-        st.success("Request saved!")
-    else:
-        st.error("Please fill out both fields.")
-
-# ALWAYS reload file (this is the key fix)
-st.subheader("All Requests")
-
-df = pd.read_csv(file_path)
-st.dataframe(df)
+st.markdown(
+    """
+    👉 Submit a request here:
+    https://forms.gle/5QVbRwdN8dg2FiyT6
+    """
+)
