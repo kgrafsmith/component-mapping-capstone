@@ -480,5 +480,58 @@
       "Sealant":["Liquids"],
       "Waterproofing System":["Liquids"]
     }
+  },
+  "Decking":{
+    "Cementitious Panel":{
+      "Roof Deck":["Panel"]
+    },
+    "Concrete":{
+      "Decking":["Concrete"],
+      "Paver":["Concrete"]
+    },
+    "Galvanized":{
+      "Decking":["Steel"]
+    },
+    "LWIC-Cellular":{
+      "Roof Deck":["Concrete"]
+    },
+    "OSB":{
+      "Decking":["Board Stock"],
+      "Roof Deck":["Board Stock"]
+    },
+    "Plywood":{
+      "Decking":["Wood"],
+      "Roof Deck":["Wood"]
+    },
+    "Portland Cement":{
+       "Decking":["Panel"]
+    },
+    "Recycled Fiber and Plastic":{
+      "Decking":["Board Stock"]
+    },
+    "Steel":{
+      "Decking":["Formed Metal", "Metal", "Steel"]
+    },
+    "Structural":{
+      "Roof Deck":["Concrete"]
+    },
+    "Structural Lightweight":{
+      "Roof Deck":["Concrete"]
+    },
+    "Wood":{
+      "Decking":["Tile"],
+      "Roof Deck":["Wood"]
+    },
+    "Wood Fiber":{
+      "Roof Deck":["Plank"]
+    }
+  },
+  "Fence":{
+    "Polyvinyl Chloride (PVC)":{
+      "Fence Panel":["Panel"]
+    },
+    "Recycled Fiber and Plastic":{
+      "Fence Panel":["Panel"]
+    }
   }
 }
