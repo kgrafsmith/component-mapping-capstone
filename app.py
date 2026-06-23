@@ -79,3 +79,40 @@ for cat in categories:
 
 st.subheader("Table View: Valid Component Mappings")
 st.dataframe(results)
+
+
+import pandas as pd
+from datetime import datetime
+import os
+
+st.divider()
+st.subheader("Don't see your mapping? Request it here")
+
+with st.form("ticket_form"):
+    component = st.text_input("Component Name")
+    mapping_request = st.text_area("What mapping do you need?")
+    submitted = st.form_submit_button("Submit Request")
+
+if submitted:
+    if component and mapping_request:
+
+        new_row = {
+            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "component": component,
+            "mapping_request": mapping_request
+        }
+
+        file_path = "help_requests.csv"
+
+        # If file exists, append; otherwise create it
+        if os.path.exists(file_path):
+            df = pd.read_csv(file_path)
+            df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+        else:
+            df = pd.DataFrame([new_row])
+
+        df.to_csv(file_path, index=False)
+
+        st.success("Request submitted successfully!")
+    else:
+        st.error("Please fill out both fields.")
