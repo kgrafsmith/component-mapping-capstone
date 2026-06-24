@@ -686,5 +686,109 @@
     "Portland Cement":{
       "Paver":["Tile"]
     }
+  },
+  "Insulation":{
+    "Aluminum":{
+      "Insulation":["Board Stock"]
+    },
+    "Asphaltic-Fiberglass Reinforced":{
+      "Coverboard":["Board Stock"],
+      "Walkway Protection":["Board Stock"]
+    },
+    "Cellular Glass":{
+      "Coverboard":["Board Stock"]
+    },
+    "Cementitious":{
+      "Insulation":["Concrete"]
+    },
+    "Cementitious Panel":{
+      "Coverboard":["Board Stock"]
+    },
+    "Composite Fiber":{
+      "Coverboard":["Board Stock"],
+      "Insulation":["Board Stock"]
+    },
+    "Fiberglass-Uncoated":{
+      "Coverboard":["Board Stock"],
+      "Insulation":["Board Stock"]
+    },
+    "Gypsum":{
+      "Coverboard":["Board Stock"],
+      "Insulation":["Board Stock"]
+    },
+    "Gypsum, Plank":{
+      "Coverboard":["Board Stock"]
+    },
+    "LWIC-Cellular":{
+      "Insulation, Cast-In-Place":["Cast-In-Place"]
+    },
+    "Mineral Wool":{
+      "Coverboard":["Board Stock"],
+      "Insulation":["Board Stock"]
+    },
+    "OSB":{
+      "Coverboard":["Board Stock"],
+      "Insulation":["Board Stock"]
+    },
+    "Other/Not Listed":{
+      "Insulation":["Liquids", "Panel", "Plank"]
+    },
+    "Perlite":{
+      "Coverboard":["Board Stock"],
+      "Insulation":["Board Stock"]
+    },
+    "Plywood":{
+      "Insulation":["Board Stock"]
+    },
+    "Polyisocyanurate":{
+      "Additive":["Liquids"],
+      "Anchor/Base Sheet":["Board Stock"],
+      "Coverboard":["Board Stock"],
+      "Insulation":["Board Stock", "Panel", "Plank"]
+    },
+    "Polymer Coated Glass":{
+      "Coverboard":["Board Stock"],
+      "Insulation":["Board Stock"]
+    },
+    "Polypropylene (PP)":{
+      "Coverboard":["Board Stock"]
+    },
+    "Polystyrene, Expanded (EPS)":{
+      "Coverboard":["Board Stock"],
+      "Insulation":["Board Stock", "Panel"],
+      "Roof Cover":["Board Stock"]
+    },
+    "Polystyrene, Extruded (XPS)":{
+      "Coverboard":["Board Stock"],
+      "Insulation":["Board Stock"],
+      "Underlayment":["Board Stock"]
+    },
+    "Polyurethane":{
+      "Insulation":["Board Stock", "Cast-In-Place"]
+    },
+    "Recycled Fiber and Plastic":{
+      "Coverboard":["Board Stock", "Panel"]
+    },
+    "SBS-Polyester Reinforced":{
+      "Anchor/Base Sheet":["Board Stock"],
+      "Coverboard":["Board Stock"]
+    },
+    "Spray Foam-Polyurethane":{
+      "Additive":["Liquids"],
+      "Insulation":["Cast-In-Place", "Liquids"],
+      "Insulation, Cast-In-Place":["Cast-In-Place"]
+    },
+    "Synthetic":{
+      "Insulation":["Board Stock"]
+    },
+    "Vacuum Insulated Panel":{
+      "Insulation":["Board Stock"]
+    },
+    "Wood Fiber":{
+      "Cap Ply":["Panel"],
+      "Coverboard":["Board Stock"],
+      "Insulation":["Board Stock", "Panel"]
+    }
+
   }
 }
