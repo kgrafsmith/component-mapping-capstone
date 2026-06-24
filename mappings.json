@@ -533,5 +533,129 @@
     "Recycled Fiber and Plastic":{
       "Fence Panel":["Panel"]
     }
+  },
+  "Flashing Accessories":{
+    "Acrylic":{
+      "Flashing":["Liquids"]
+    },
+    "Aluminum":{
+      "Edge":["Metal", "Pre-Assembled"]
+    },
+    "Asphaltic":{
+      "Flashing Accessories":["Joint Cover"]
+    },
+    "Asphaltic-Composite Reinforced":{
+      "Flashing Accessories":["Joint Cover"]
+    },
+    "Butyl":{
+      "Flashing":["Joint Cover"],
+      "Flashing Accessories":["Joint Cover", "Roll Goods"]
+    },
+    "Cement":{
+      "Adhesion":["Cement"]
+    },
+    "Coal Tar":{
+      "Flashing":["Liquids"]
+    },
+    "Curing Compound":{
+      "Flashing Accessories":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "EPDM":{
+      "Flashing":["Joint Cover"],
+      "Flashing Accessories":["Joint Cover", "Roll Goods"]
+    },
+    "Galvalume":{
+      "Edge":["Pre-Assembled"]
+    },
+    "Galvanized":{
+      "Edge":["Metal", "Panel"],
+      "Flashing":["Formed Metal"],
+      "Flashing Accessories":["Boot", "Metal", "Panel", "Roll Goods"]
+    },
+    "KEE":{
+      "Flashing Accessories":["Boot", "Corner", "Injection Molded","Joint Cover", "Roll Goods"],
+      "Waterproofing System":["Roll Goods"]
+    },
+    "Metal":{
+      "Edge":["Metal", "Panel"],
+      "Fascia":["Formed Metal"],
+      "Flashing Accessories":["Metal", "Panel", "Pre-Assembled"]
+    },
+    "Neoprene":{
+      "Flashing Accessories":["Joint Cover"]
+    },
+    "Other/Not Listed":{
+      "Flashing Accessories":["Joint Cover", "Roll Goods"]
+    },
+    "PMMA":{
+      "Flashing":["Joint Cover"],
+      "Flashing Accessories":["Liquids"]
+    },
+    "Polymer":{
+       "Flashing":["Joint Cover", "Roll Goods"],
+       "Flashing Accessories":["Joint Cover", "Roll Goods"],
+       "Flooring":["Joint Cover"]
+    },
+    "Polypropylene (PP)":{
+      "Flashing Accessories":["Panel"]
+    },
+    "Polyurethane":{
+      "Flashing Accessories":["Liquids"]
+    },
+    "Polyvinyl Butyral (PVB)":{
+      "Flashing":["Roll Goods"]
+    },
+    "Polyvinyl Chloride (PVC)":{
+      "Fascia":["Pre-Assembled"],
+      "Flashing Accessories":["Pre-Assembled"]
+    },
+    "PVC":{
+      "Edge":["Metal", "Panel"],
+      "Flashing Accessories":["Metal", "Panel"]
+    },
+    "PVC/KEE Copolymer":{
+      "Flashing Accessories":["Corner", "Injection Molded"]
+    },
+    "SEBS-Composite Reinforced":{
+      "Flashing Accessories":["Joint Cover"]
+    },
+    "Silicone":{
+      "Flashing Accessories":["Joint Cover"]
+    },
+    "Solvent-Based":{
+      "Sealant":["Injection Molded", "Liquids"]
+    },
+    "Stainless Steel":{
+      "Edge":["Pre-Assembled"]
+    },
+    "Steel":{
+      "Flashing Accessories":["Roll Goods"]
+    },
+    "STPE":{
+      "Flashing Accessories":["Liquids"]
+    },
+    "Synthetic":{
+      "Flashing Accessories":["Joint Cover"],
+      "Sealant":["Liquids"]
+    },
+    "Synthetic, Composite":{
+      "Flashing":["Joint Cover"],
+      "Flashing Accessories":["Liquids"]
+    },
+    "TPO":{
+      "Adhesion":["Roll Goods"],
+      "Flashing":["Joint Cover"],
+      "Flashing Accessories":["Boot", "Corner", "Injection Molded", "Joint Cover", "Metal", "Pre-Assembled", "Roll Goods"],
+      "Penetration Seal Curb":["Injection Molded"],
+      "Reinforcement":["Roll Goods"],
+      "Roof Cover":["Roll Goods"],
+      "Sealant":["Injection Molded", "Liquids"],
+      "Single Ply Roof Cover":["Roll Goods"]
+    },
+    "Water-Based":{
+      "Flashing":["Liquids"],
+      "Sealant":["Liquids"]
+    }
   }
 }
