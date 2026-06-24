@@ -1,10 +1,3 @@
-🚀 If you deploy via Streamlit Cloud (recommended)
-How it works:
-Your app runs directly from your GitHub repo
-GitHub becomes the “source of truth”
-So yes — you can still edit it like this:
-Edit app.py on your computer
-
 Run:
 
 git add .
@@ -12,31 +5,10 @@ git commit -m "update app"
 git push
 Streamlit Cloud automatically updates your live app
 
-⏱ Usually refreshes in ~30–60 seconds
-
-🔁 Key idea
+Usually refreshes in ~30–60 seconds
 
 GitHub ↔ Streamlit Cloud are linked
 
 So your workflow becomes:
 
 Edit → commit → push → auto-update live app
-
-⚠️ What NOT to do
-
-If you deploy via Streamlit Cloud:
-
-Don’t edit files directly in the cloud UI
-Don’t forget to push changes to GitHub
-
-Otherwise your local + live versions get out of sync.
-
-🧠 What this means for you
-
-You effectively get:
-
-live interactive portfolio project
-version-controlled development workflow
-real-world engineering pipeline behavior
-
-This is exactly how companies ship internal tools.
