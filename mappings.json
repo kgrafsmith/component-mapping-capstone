@@ -657,5 +657,34 @@
       "Flashing":["Liquids"],
       "Sealant":["Liquids"]
     }
+  },
+  "Flooring":{
+    "Concrete":{
+      "Paver":["Panel", "Tile"]
+    },
+    "Epoxy":{
+      "Flooring":["Other"]
+    },
+    "Fiber Cement":{
+      "Flooring":["Panel"]
+    },
+    "Other":{
+      "Paver":["Tile"]
+    },
+    "Polymer":{
+      "Paver Attachment":["Pre-Assembled"]
+    },
+    "Polyurea":{
+      "Flooring":["Liquids"]
+    },
+    "Polyurethane":{
+      "Flooring":["Liquids"]
+    },
+    "Porcelain":{
+      "Paver":["Tile"]
+    },
+    "Portland Cement":{
+      "Paver":["Tile"]
+    }
   }
 }
