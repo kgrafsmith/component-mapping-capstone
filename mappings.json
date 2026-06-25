@@ -234,7 +234,8 @@
     },
     "Polymer":{
       "Vapor Barrier":["Roll Goods"],
-      "Vapor Retarder": ["Roll Goods"]
+      "Vapor Retarder": ["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
     },
     "Polypropylene (PP)":{
        "Air Barrier":["Panel","Roll Goods"],
@@ -411,9 +412,6 @@
       "Primers/Treatments":["Liquids"],
       "Roof Coating":["Liquids"]
     },
-    "Other":{
-      "Primers/Treatments":["Liquids"]
-    },
     "Other/Not Listed":{
       "Base Coat":["Liquids"],
       "Maintenance Coatings":["Liquids"],
@@ -423,6 +421,7 @@
     },
     "Polymer":{
       "Base Coat":["Liquids"],
+      "Catalyst":["Powder"],
       "Color Flakes":["Granular"],
       "Finish Coat":["Liquids"],
       "Maintenance Coatings":["Liquids"],
@@ -499,9 +498,15 @@
       "Decking":["Board Stock"],
       "Roof Deck":["Board Stock"]
     },
+    "Other/Not Listed":{
+      "Roof Deck":["Concrete"]
+    },
     "Plywood":{
       "Decking":["Wood"],
       "Roof Deck":["Wood"]
+    },
+    "Polyester-Uncoated":{
+      "Reinforcement":["Other"]
     },
     "Portland Cement":{
        "Decking":["Panel"]
@@ -668,7 +673,7 @@
     "Fiber Cement":{
       "Flooring":["Panel"]
     },
-    "Other":{
+    "Other/Not Listed":{
       "Paver":["Tile"]
     },
     "Polymer":{
@@ -789,6 +794,57 @@
       "Coverboard":["Board Stock"],
       "Insulation":["Board Stock", "Panel"]
     }
-
+  },
+  "Liquid Applications":{
+    "Acrylic":{
+      "Primers/Treatments":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "Asphalt Hot":{
+      "Roof Coating":["Liquids"]
+    },
+    "Curing Compound":{
+      "Sealant":["Liquids"],
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "Epoxy":{
+      "Primers/Treatments":["Liquids"],
+      "Vapor Retarder":["Liquids"]
+    },
+    "Other/Not Listed":{
+      "Aggregate":["Granular"],
+      "Primers/Treatments":["Liquids"],
+      "Vapor Retarder":["Liquids"]
+    },
+    "PMMA":{
+      "Primers/Treatments":["Liquids"]
+    },
+    "Polyether":{
+      "Air Barrier":["Liquids"]
+    },
+    "Polymer":{
+      "Primers/Treatments":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "Polyurethane":{
+      "Sealant":["Liquids"]
+    },
+    "SEBS-Composite Reinforced":{
+      "Roof Coating":["Liquids"]
+    },
+    "Silicone":{
+      "Roof Coating":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "Solvent-Based":{
+      "Primers/Treatments":["Liquids"]
+    },
+    "STPE":{
+      "Air Barrier":["Liquids"]
+    },
+    "Water-Based":{
+      "Primers/Treatments":["Liquids"]
+    }
   }
+
 }
