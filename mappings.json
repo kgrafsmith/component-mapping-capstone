@@ -938,5 +938,107 @@
       "Primers/Treatments":["Liquids"],
       "Sealant":["Liquids"]
     }
+  },
+  "Mechanical Fastening":{
+    "Aluminum":{
+      "Batten or Stress Bar":["Extrusion", "Formed Metal", "Joint Cover", "Metal"],
+      "Clip":["Formed Metal"],
+      "Pre-Assembled Fastener":["Metal"]
+    },
+    "AZM":{
+      "Stress Plate":["Stress Plate"]
+    },
+    "Coated Carbon Steel":{
+      "Nail":["Formed Wire", "Metal", "Steel", "Threaded Metal"],
+      "Pre-Assembled Fastener":["Metal"],
+      "Screw":["Formed Wire", "Threaded Metal"],
+      "Stress Plate":["Stress Plate"]
+    },
+    "Coated Steel":{
+      "Nail":["Formed Wire"],
+      "Pre-Assembled Fastener":["Pre-Assembled", "Steel", "Stress Plate", "Threaded Metal"],
+      "Screw":["Metal", "Stress Plate", "Threaded Metal"],
+      "Stress Plate":["Formed Metal", "Stress Plate", "Threaded Metal"]
+    },
+    "Copper":{
+      "Clip":["Formed Metal"]
+    },
+    "Galvalume":{
+      "Batten or Stress Bar":["Formed Metal", "Metal", "Steel"],
+      "Clip":["Formed Metal"],
+      "Nail":["Formed Metal"],
+      "Pre-Assembled Fastener":["Pre-Assembled", "Steel", "Stress Plate"],
+      "Screw":["Formed Wire", "Threaded Metal"],
+      "Stress Plate":["Formed Metal", "Stress Plate"]
+    },
+    "Galvanized":{
+      "Batten or Stress Bar":["Formed Metal", "Metal"],
+      "Clip":["Formed Metal"],
+      "Nail":["Formed Metal", "Formed Wire", "Steel"],
+      "Pre-Assembled Fastener":["Formed Metal","Pre-Assembled", "Steel", "Stress Plate"],
+      "Screw":["Formed Wire", "Stress Plate", "Threaded Metal"],
+      "Stress Plate":["Formed Metal", "Stress Plate", "Threaded Metal"]
+    },
+    "Glass Filled Nylon":{
+      "Screw":["Injection Molded", "Polymer", "Threaded Metal"]
+    },
+    "Metal":{
+      "Clip":["Formed Metal"],
+      "Nail":["Formed Metal"],
+      "Screw":["Formed Wire", "Metal", "Threaded Metal"],
+      "Stress Plate":["Stress Plate"]
+    },
+    "Nail with Plate":{
+      "Pre-Assembled Fastener":["Pre-Assembled"]
+    },
+    "Other/Not Listed":{
+      "Purlin":["Formed Wire"],
+      "Screw":["Formed Metal", "Formed Wire", "Threaded Metal"],
+      "Stress Plate":["Injection Molded"]
+    },
+    "Polymer":{
+      "Batten or Stress Bar":["Extrusion", "Stress Plate"],
+      "Paver Attachment":["Bolt"],
+      "Pre-Assembled Fastener":["Pre-Assembled"],
+      "Stress Plate":["Stress Plate"]
+    },
+    "Polymer Coated Glass":{
+      "Stress Plate":["Stress Plate"]
+    },
+    "Polypropylene (PP)":{
+      "Stress Plate":["Stress Plate"]
+    },
+    "Polyvinyl Chloride (PVC)":{
+      "Batten or Stress Bar":["Extrusion"]
+    },
+    "Screw with Plate":{
+      "Pre-Assembled Fastener":["Pre-Assembled", "Stress Plate"],
+      "Stress Plate":["Pre-Assembled"]
+    },
+    "Stainless Steel":{
+      "Clip":["Formed Metal"],
+      "Screw":["Formed Wire", "Steel", "Threaded Metal"],
+      "Stress Plate":["Stress Plate"]
+    },
+    "Steel":{
+      "Anchor Bolt":["Bolt"],
+      "Clip":["Formed Metal"],
+      "Nail":["Formed Metal"],
+      "Pre-Assembled Fastener":["Other","Pre-Assembled"],
+      "Screw":["Formed Wire", "Stress Plate", "Threaded Metal"],
+      "Stress Plate":["Formed Metal","Stress Plate", "Threaded Metal"]
+    },
+    "Synthetic":{
+      "Stress Plate":["Stress Plate"]
+    },
+    "TPO":{
+      "Flashing Accessories":["Joint Cover"]
+    },
+    "Zinc":{
+      "Clip":["Formed Metal"],
+      "Nail":["Formed Wire"],
+      "Screw":["Threaded Metal"],
+      "Stress Plate":["Stress Plate"]
+    }
   }
 }
