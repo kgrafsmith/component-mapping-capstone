@@ -1489,5 +1489,95 @@
       "Walkway Protection":["Roll Goods"],
       "Waterproofing System":["Metal", "Pre-Assembled"]
     }
+  },
+  "Steep Slope":{
+    "Acrylic":{
+      "Roof Panel":["Panel"]
+    },
+    "Aluminum":{
+      "Hip and Ridge":["Metal"],
+      "Roof Panel":["Panel", "Prepared Roof Cover"],
+      "Roof Vent":["Off-Ridge Vent", "Ridge Vent", "Roof Vent"]
+    },
+    "APP-Fiberglass Reinforced":{
+      "Underlayment":["Roll Goods"]
+    },
+    "Asphalt Rubberized":{
+      "Shingle":["Shingles"],
+      "Underlayment":["Roll Goods"]
+    },
+    "Asphaltic":{
+      "Cap Ply":["Panel"],
+      "Insulation":["Panel"],
+      "Shingle":["Roll Goods","Shingles"],
+      "Underlayment":["Panel","Roll Goods"]
+    },
+    "Asphaltic-Composite Reinforced":{
+      "Shingle":["Shingles"],
+      "Underlayment":["Roll Goods"]
+    },
+    "Asphaltic-Fiberglass Reinforced":{
+      "Shingle":["Prepared Roof Cover","Shingles"],
+      "Slate":["Prepared Roof Cover"],
+      "Underlayment":["Roll Goods"]
+    },
+    "Asphaltic-Polyester Reinforced":{
+      "Underlayment":["Roll Goods"]
+    },
+    "Butyl":{
+      "Underlayment":["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "Clay":{
+      "Roof Tile":["Tile"]
+    },
+    "Coated Steel":{
+      "Flashing":["Prepared Roof Cover"],
+      "Metal Roof Shingles":["Prepared Roof Cover"],
+      "Roof Vent":["Ridge Vent"],
+      "Shingle":["Prepared Roof Cover"],
+      "Tile":["Prepared Roof Cover"]
+    },
+    "Concrete":{
+      "Hip and Ridge":["Extrusion"],
+      "Roof Cover":["Tile"],
+      "Roof Tile":["Extrusion", "Prepared Roof Cover","Tile"],
+      "Tile":["Prepared Roof Cover","Tile"]
+    },
+    "Copper":{
+      "Hip and Ridge":["Formed Metal"],
+      "Roof Panel":["Panel","Prepared Roof Cover"]
+    },
+    "Fiberglass-Uncoated":{
+      "Slip Sheet":["Roll Goods"],
+      "Underlayment":["Roll Goods"]
+    },
+    "Galvalume":{
+      "Hip and Ridge":["Formed Metal", "Metal"],
+      "Roof Panel":["Panel","Prepared Roof Cover"]
+    },
+    "Galvanized":{
+      "Roof Deck":["Metal"],
+      "Roof Panel":["Panel","Prepared Roof Cover"],
+      "Roof Vent":["Ridge Vent"]
+    },
+    "Gypsum, Poured":{
+      "Underlayment":["Concrete"]
+    },
+    "KEE":{
+      "Roof Cover":["Prepared Roof Cover"]
+    },
+    "Metal":{
+      "Metal Roof Shingle":["Shingles"],
+      "Roof Panel":["Formed Metal","Panel","Prepared Roof Cover"],
+      "Roof Vent":["Off-Ridge Vent"]
+    },
+    "Modified Bitumen":{
+      "Anchor/Base Sheet":["Roll Goods"],
+      "Underlayment":["Roll Goods"]
+    },
+    "Multi-Polymer Blend":{
+      "Roof Cover":["Prepared Roof Cover"]
+    }
   }
 }
