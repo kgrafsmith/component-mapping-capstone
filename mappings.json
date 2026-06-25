@@ -1297,5 +1297,52 @@
     "Wood":{
       "Paver":["Prepared Roof Cover"]
     }
+  },
+  "Reinforcement":{
+    "EPDM":{
+      "Reinforcement":["Roll Goods"]
+    },
+    "Fiberglass-Uncoated":{
+      "Reinforcement":["Roll Goods"],
+      "Slip Sheet":["Roll Goods"]
+    },
+    "Modified Bitumen":{
+      "Underlayment":["Roll Goods"]
+    },
+    "Other/Not Listed":{
+      "Reinforcement":["Roll Goods"]
+    },
+    "Polyester-Uncoated":{
+      "Ply":["Roll Goods"],
+      "Reinforcement":["Roll Goods"]
+    },
+    "Synthetic, Spun-Bond":{
+      "Reinforcement":["Roll Goods"]
+    }
+  },
+  "Siding":{
+    "Fiber Cement":{
+      "Siding":["Panel"]
+    },
+    "Gypsum, Plank":{
+      "Roof Panel":["Gypsum"]
+    },
+    "Metal":{
+      "Siding":["Panel"]
+    },
+    "Polypropylene (PP)":{
+      "Shingle":["Panel", "Shingles"],
+      "Siding":["Panel", "Shingles"]
+    },
+    "Polystyrene, Expanded (EPS)":{
+      "Siding":["Panel"]
+    },
+    "Polyvinyl Chloride (PVC)":{
+      "Siding":["Injection Molded","Panel"],
+      "Soffit":["Panel", "Polymer"]
+    },
+    "Wood":{
+      "Siding":["Panel"]
+    }
   }
 }
