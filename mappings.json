@@ -845,6 +845,98 @@
     "Water-Based":{
       "Primers/Treatments":["Liquids"]
     }
+  },
+  "Liquid Applied Roof System":{
+    "Acrylic":{
+      "Base Coat":["Liquids"],
+      "Finish Coat":["Liquids"],
+      "Flashing":["Liquids"],
+      "Roof Coating":["Liquids"],
+      "Waterproofing System":["Liquids"]
+    },
+    "Asphalt Emulsion":{
+      "Roof Coating":["Liquids"]
+    },
+    "Asphalt Hot":{
+      "Waterproofing System":["Liquids"]
+    },
+    "Asphalt Rubberized":{
+      "Base Coat":["Liquids"],
+      "Finish Coat":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Waterproofing System":["Liquids"]
+    },
+    "Epoxy":{
+      "Adhesion":["Liquids"],
+      "Primers/Treatments":["Liquids"]
+    },
+    "Multi-Polymer Blend":{
+      "Waterproofing System":["Liquids"]
+    },
+    "Other/Not Listed":{
+      "Aggregate":["Granular"],
+      "Base Coat":["Liquids"],
+      "Catalyst":["Powder"],
+      "Finish Coat":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "PMA":{
+      "Base Coat":["Liquids"],
+      "Finish Coat":["Liquids"]
+    },
+    "PMMA":{
+      "Base Coat":["Liquids"],
+      "Finish Coat":["Liquids"],
+      "Flashing":["Liquids"],
+      "Flashing Accessories":["Joint Cover", "Liquids"],
+      "Roof Coating":["Liquids"],
+      "Sealant":["Liquids"],
+      "Waterproofing System":["Liquids"]
+    },
+    "Polyester-Uncoated":{
+      "Reinforcement":["Roll Goods"]
+    },
+    "Polyether":{
+      "Sealant":["Liquids"]
+    },
+    "Polymer":{
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "Polyurea":{
+      "Waterproofing System":["Liquids"]
+    },
+    "Polyurethane":{
+      "Base Coat":["Liquids"],
+      "Finish Coat":["Liquids"],
+      "Roof Coating":["Liquids"],
+      "Sealant":["Liquids"],
+      "Waterproofing System":["Liquids"]
+    },
+    "Silicone":{
+      "Sealant":["Liquids"]
+    },
+    "Solvent-Based":{
+      "Finish Coat":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "Spray Foam-Polyurethane":{
+      "Adhesion":["Pre-Assembled"]
+    },
+    "STPE":{
+      "Sealant":["Liquids"]
+    },
+    "Synthetic":{
+      "Base Coat":["Liquids"],
+      "Finish Coat":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "Water-Based":{
+      "Base Coat":["Liquids"],
+      "Finish Coat":["Liquids"],
+      "Flashing":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Sealant":["Liquids"]
+    }
   }
-
 }
