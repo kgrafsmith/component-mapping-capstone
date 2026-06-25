@@ -5,8 +5,8 @@ import json
 with open("mappings.json", "r") as f:
     mappings = json.load(f)
 
+# Fomat Page; Titles, Headers, Caption
 st.set_page_config(page_title="Component Mapping Explorer", layout="wide")
-
 st.title("Component Mapping Explorer")
 st.caption("Multi-select exploration of Category → Material → Intended Use → Format")
 
