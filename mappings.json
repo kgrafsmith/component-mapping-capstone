@@ -16,7 +16,7 @@
       "Flashing Accessories":["Cement"],
       "Sealant":["Cement"],
       "Waterproofing System":["Liquids"],
-      "Water-Resistive Barrier":["Cement"]
+      "Water-Resistive Barrier (WRB)":["Cement"]
     },
     "Asphaltic":{
       "Adhesion":["Cement", "Liquids"],
@@ -1039,6 +1039,169 @@
       "Nail":["Formed Wire"],
       "Screw":["Threaded Metal"],
       "Stress Plate":["Stress Plate"]
+    }
+  },
+  "Modified Bitumen":{
+    "Aluminum":{
+      "Cap Ply":["Roll Goods"],
+      "Flashing":["Roll Goods"]
+    },
+    "APP-Composite Reinforced":{
+      "Base Ply":["Roll Goods"],
+      "Cap Ply":["Roll Goods"],
+      "Flashing":["Roll Goods"],
+      "Ply":["Roll Goods"]
+    },
+    "APP-FIberglass Reinforced":{
+      "Anchor/Base Sheet":["Roll Goods"],
+      "Base Ply":["Roll Goods"],
+      "Base Sheet":["Board Stock","Roll Goods"],
+      "Cap Ply":["Roll Goods"],
+      "Flashing":["Roll Goods"],
+      "Ply":["Roll Goods"],
+      "Shingle":["Roll Goods"]
+    },
+    "APP-Polyester Reinforced":{
+      "Anchor/Base Sheet":["Roll Goods"],
+      "Base Ply":["Roll Goods"],
+      "Cap Ply":["Roll Goods"],
+      "Flashing":["Roll Goods"],
+      "Ply":["Roll Goods"],
+      "Roof Cover":["Roll Goods"],
+      "Single Ply Roof Cover":["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "Asphalt Rubberized":{
+      "Reinforcement":["Roll Goods"],
+      "Roof Cover":["Roll Goods"]
+    },
+    "Asphaltic":{
+      "Anchor/Base Sheet":["Board Stock"],
+      "Cap Ply":["Roll Goods"],
+      "Coverboard":["Board Stock"],
+      "Flashing":["Cement", "Liquids"],
+      "Sealant":["Cement", "Liquids"]
+    },
+    "Asphaltic-Composite Reinforced":{
+      "Protection Course":["Board Stock"],
+      "Single Ply Roof Cover":["Roll Goods"]
+    },
+    "Asphaltic-Fiberglass Reinforced":{
+      "Anchor/Base Sheet":["Roll Goods"],
+      "Base Ply":["Roll Goods"],
+      "Base Sheet":["Roll Goods"],
+      "Cap Ply":["Roll Goods"],
+      "Ply":["Roll Goods"],
+      "Underlayment":["Roll Goods"]
+    },
+    "Asphaltic-Polyester Reinforced":{
+      "Base Sheet":["Roll Goods"],
+      "Cap Ply":["Roll Goods"]
+    },
+    "Butyl":{
+      "Flashing":["Roll Goods"]
+    },
+    "Copper":{
+      "Cap Ply":["Roll Goods"]
+    },
+    "EPDM":{
+      "Flashing":["Roll Goods"]
+    },
+    "Modified Bitumen":{
+      "Base Ply":["Roll Goods"],
+      "Cap Ply":["Roll Goods"],
+      "Ply":["Roll Goods"],
+      "Roof Cover":["Roll Goods"],
+      "Underlayment":["Roll Goods"],
+      "Vapor Barrier":["Roll Goods"]
+    },
+    "Other/Not Listed":{
+      "Vapor Barrier":["Roll Goods"]
+    },
+    "Polyisocyanurate":{
+      "Anchor/Base Sheet":["Board Stock"],
+      "Coverboard":["Board Stock"]
+    },
+    "Polymer":{
+      "Cap Ply":["Roll Goods"],
+      "Vapor Barrier":["Roll Goods"]
+    },
+    "SBR-Fiberglass Reinforced":{
+      "Base Ply":["Roll Goods"]
+    },
+    "SBS":{
+      "Adhesion":["Other"],
+      "Anchor/Base Sheet":["Roll Goods"],
+      "Base Ply":["Roll Goods"],
+      "Cap Ply":["Roll Goods"],
+      "Ply":["Roll Goods"],
+      "Underlayment":["Roll Goods"],
+      "Vapor Barrier":["Roll Goods"],
+      "Waterproofing System":["Roll Goods"]
+    },
+    "SBS/APP Copolymer-Composite Reinforced":{
+      "Cap Ply":["Roll Goods"]
+    },
+    "SBS-Composite Reinforced":{
+      "Anchor/Base Sheet":["Roll Goods"],
+      "Base Ply":["Roll Goods"],
+      "Cap Ply":["Roll Goods"],
+      "Flashing":["Roll Goods"],
+      "Underlayment":["Roll Goods"],
+      "Vapor Retarder":["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "SBS-Fiberglass Reinforced":{
+      "Air Barrier":["Roll Goods"],
+      "Anchor/Base Sheet":["Roll Goods"],
+      "Base Ply":["Roll Goods"],
+      "Base Sheet":["Roll Goods"],
+      "Cap Ply":["Roll Goods"],
+      "Flashing":["Roll Goods"],
+      "Flashing Accessories":["Joint Cover"],
+      "Ply":["Roll Goods"],
+      "Protection Course":["Board Stock", "Roll Goods"],
+      "Reinforcement":["Roll Goods"],
+      "Roof Cover":["Roll Goods"],
+      "Underlayment":["Roll Goods"],
+      "Vapor Barrier":["Roll Goods"],
+      "Waterproofing System":["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "SBS-Polyester Reinforced":{
+      "Anchor/Base Sheet":["Board Stock","Roll Goods"],
+      "Base Ply":["Roll Goods"],
+      "Base Sheet":["Roll Goods"],
+      "Cap Ply":["Roll Goods"],
+      "Coverboard":["Board Stock"],
+      "Flashing":["Roll Goods"],
+      "Ply":["Roll Goods"],
+      "Protection Course":["Roll Goods"],
+      "Reinforcement":["Roll Goods"],
+      "Roof Cover":["Roll Goods"],
+      "Single Ply Roof Cover":["Roll Goods"],
+      "Underlayment":["Roll Goods"],
+      "Vapor Retarder":["Roll Goods"]
+    },
+    "SEBS-Composite Reinforced":{
+      "Base Ply":["Roll Goods"],
+      "Cap Ply":["Roll Goods"],
+      "Ply":["Roll Goods"],
+      "Roof Cover":["Roll Goods"]
+    },
+    "SEBS-Fiberglass Reinforced":{
+      "Base Ply":["Roll Goods"],
+      "Cap Ply":["Roll Goods"]
+    },
+    "SEBS-Polyester Reinforced":{
+      "Cap Ply":["Roll Goods"]
+    },
+    "Silicone":{
+      "Vapor Barrier":["Roll Goods"]
+    },
+    "Solvent-Based":{
+      "Flashing":["Liquids"],
+      "Sealant":["Cement", "Liquids"]
     }
   }
 }
