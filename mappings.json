@@ -1052,7 +1052,7 @@
       "Flashing":["Roll Goods"],
       "Ply":["Roll Goods"]
     },
-    "APP-FIberglass Reinforced":{
+    "APP-Fiberglass Reinforced":{
       "Anchor/Base Sheet":["Roll Goods"],
       "Base Ply":["Roll Goods"],
       "Base Sheet":["Board Stock","Roll Goods"],
@@ -1343,6 +1343,151 @@
     },
     "Wood":{
       "Siding":["Panel"]
+    }
+  },
+  "Single Ply":{
+    "Aluminum":{
+      "Wrap":["Roll Goods"]
+    },
+    "APP-Fiberglass Reinforced":{
+      "Roof Cover":["Roll Goods"]
+    },
+    "APP-Polyester Reinforced":{
+      "Roof Cover":["Roll Goods"]
+    },
+    "Asphalt Rubberized":{
+      "Wrap":["Roll Goods"]
+    },
+    "Asphaltic":{
+      "Base Ply":["Roll Goods"],
+      "Cap Ply":["Roll Goods"]
+    },
+    "Asphaltic-Cellulose Reinforced":{
+      "Protection Course":["Roll Goods"]
+    },
+    "Asphaltic-Fiberglass Reinforced":{
+      "Anchor/Base Sheet":["Roll Goods"],
+      "Base Ply":["Roll Goods"],
+      "Ply":["Roll Goods"]
+    },
+    "Butyl":{
+      "Underlayment":["Roll Goods"]
+    },
+    "Clay":{
+      "Waterproofing System":["Roll Goods"]
+    },
+    "Coal Tar":{
+      "Ply":["Roll Goods"]
+    },
+    "CSPE":{
+      "Roof Cover":["Roll Goods"]
+    },
+    "EPDM":{
+      "Cap Ply":["Roll Goods"],
+      "Flashing":["Roll Goods"],
+      "Roof Cover":["Roll Goods"],
+      "Single Ply Roof Cover":["Roll Goods"],
+      "Underlayment":["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "Fiberglass-Uncoated":{
+      "Ply":["Roll Goods"],
+      "Waterproofing System":["Roll Goods"]
+    },
+    "KEE":{
+      "Cap Ply":["Roll Goods"],
+      "Roof Cover":["Roll Goods"],
+      "Single Ply Roof Cover":["Roll Goods"],
+      "Walkway Protection":["Roll Goods"]
+    },
+    "Metal":{
+      "Waterproofing System":["Metal", "Pre-Assembled"]
+    },
+    "Modified Bitumen":{
+      "Roof Cover":["Roll Goods"],
+      "Single Ply Roof Cover":["Roll Goods"]
+    },
+    "Multi-Polymer Blend":{
+      "Roof Cover":["Roll Goods"]
+    },
+    "Neoprene":{
+      "Flashing":["Roll Goods"],
+      "Reinforcement":["Roll Goods"]
+    },
+    "Other/Not Listed":{
+      "Cap Ply":["Roll Goods"],
+      "Reinforcement":["Roll Goods"],
+      "Roof Cover":["Roll Goods"],
+      "Roof Panel":["Panel"],
+      "Single Ply Roof Cover":["Roll Goods"]
+    },
+    "Polyester-Uncoated":{
+      "Base Ply":["Roll Goods"],
+      "Ply":["Roll Goods"],
+      "Reinforcement":["Roll Goods"],
+      "Single Ply Roof Cover":["Roll Goods"],
+      "Slip Sheet":["Roll Goods"],
+      "Walkway Protection":["Roll Goods"],
+      "Waterproofing System":["Roll Goods"]
+    },
+    "Polyether":{
+      "Roof Cover":["Roll Goods"],
+      "Slip Sheet":["Roll Goods"]
+    },
+    "Polymer":{
+      "Flashing":["Joint Cover"],
+      "Waterproofing System":["Roll Goods"]
+    },
+    "Polypropylene (PP)":{
+      "Anchor/Base Sheet":["Roll Goods"],
+      "Ply":["Roll Goods"],
+      "Protection Course":["Roll Goods"],
+      "Slip Sheet":["Roll Goods"]
+    },
+    "Polyvinyl Chloride (PVC)":{
+      "Cap Ply":["Roll Goods"],
+      "Protection Course":["Roll Goods"],
+      "Roof Cover":["Roll Goods"],
+      "Single Ply Roof Cover":["Roll Goods"]
+    },
+    "PVC":{
+      "Cap Ply":["Roll Goods"],
+      "Roof Cover":["Roll Goods"],
+      "Roof Deck":["Roll Goods"],
+      "Single Ply Roof Cover":["Roll Goods"]
+    },
+    "PVC/KEE Copolymer":{
+      "Cap Ply":["Roll Goods"],
+      "Roof Cover":["Roll Goods"],
+      "Single Ply Roof Cover":["Roll Goods"],
+      "Walkway Protection":["Roll Goods"],
+      "Waterproofing System":["Roll Goods"]
+    },
+    "Recycled Fiber and Plastic":{
+      "Single Ply Roof Cover":["Roll Goods"],
+      "Walkway Protection":["Prepared Roof Cover"]
+    },
+    "SBS-Fiberglass Reinforced":{
+      "Base Sheet":["Roll Goods"]
+    },
+    "SBS-Polyester Reinforced":{
+      "Base Ply":["Roll Goods"],
+      "Base Sheet":["Roll Goods"]
+    },
+    "Synthetic, Woven":{
+      "Roof Cover":["Roll Goods"],
+      "Walkway Protection":["Roll Goods"]
+    },
+    "TPO":{
+      "Cap Ply":["Roll Goods"],
+      "Flashing":["Joint Cover","Roll Goods"],
+      "Flashing Accessories":["Pre-Assembled","Roll Goods"],
+      "Reinforcement":["Roll Goods"],
+      "Roof Cover":["Roll Goods"],
+      "Single Ply Roof Cover":["Roll Goods"],
+      "Underlayment":["Roll Goods"],
+      "Walkway Protection":["Roll Goods"],
+      "Waterproofing System":["Metal", "Pre-Assembled"]
     }
   }
 }
