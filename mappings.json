@@ -1203,5 +1203,99 @@
       "Flashing":["Liquids"],
       "Sealant":["Cement", "Liquids"]
     }
+  },
+  "Pre-Assembled Systems":{
+    "Aluminum":{
+      "Coping":["Pre-Assembled"],
+      "Drain":["Pre-Assembled"],
+      "Drainage":["Pre-Assembled"],
+      "Edge":["Pre-Assembled"],
+      "Fascia":["Pre-Assembled"],
+      "Flashing":["Pre-Assembled"],
+      "Photovoltaic Mount":["Pre-Assembled"],
+      "Soffit":["Pre-Assembled"]
+    },
+    "Concrete":{
+      "Paver":["Prepared Roof Cover"]
+    },
+    "Copper":{
+      "Drainage":["Pre-Assembled"],
+      "Edge":["Pre-Assembled"],
+      "Fascia":["Pre-Assembled"],
+      "Flashing":["Pre-Assembled"]
+    },
+    "Galvalume":{
+      "Clip":["Metal"],
+      "Drainage":["Pre-Assembled"],
+      "Fascia":["Pre-Assembled"],
+      "Flashing":["Pre-Assembled"],
+      "Pre-Assembled Fastener":["Pre-Assembled"]
+    },
+    "Galvanized":{
+      "Clip":["Formed Metal"],
+      "Coping":["Pre-Assembled"],
+      "Drainage":["Pre-Assembled"],
+      "Edge":["Pre-Assembled"],
+      "Fascia":["Pre-Assembled"],
+      "Roof Vent":["Off-Ridge Vent", "Ridge Vent", "Roof Vent"]
+    },
+    "Glass Filled Nylon":{
+      "Paver Attachment":["Pre-Assembled"]
+    },
+    "Metal":{
+      "Edge":["Pre-Assembled"],
+      "Fascia":["Pre-Assembled"],
+      "Roof Panel":["Panel", "Prepared Roof Cover"],
+      "Soffit":["Panel", "Prepared Roof Cover"]
+    },
+    "Nail with Plate":{
+      "Pre-Assembled Fastener":["Pre-Assembled"]
+    },
+    "Other/Not Listed":{
+      "Paver":["Prepared Roof Cover"],
+      "Paver Attachment":["Pre-Assembled"],
+      "Siding":["Pre-Assembled"]
+    },
+    "Polymer":{
+      "Paver":["Pre-Assembled"],
+      "Paver Attachment":["Pre-Assembled", "Tile"],
+      "Penetration Seal Curb":["Pre-Assembled"],
+      "Roof Vent":["Injection Molded", "Ridge Vent"],
+      "Sealant":["Cast-In-Place"],
+      "Skylight":["Pre-Assembled"]
+    },
+    "Polypropylene (PP)":{
+      "Paver Attachment":["Pre-Assembled"],
+      "Roof Tile":["Pre-Assembled"]
+    },
+    "Polyvinyl Chloride (PVC)":{
+      "Fascia":["Pre-Assembled"]
+    },
+    "PVC":{
+      "Hip and Ridge":["Lineal"]
+    },
+    "Recycled Fiber and Plastic":{
+      "Roof Tile":["Pre-Assembled"]
+    },
+    "Screw with Plate":{
+      "Pre-Assembled Fastener":["Pre-Assembled"]
+    },
+    "Stainless Steel":{
+      "Drainage":["Pre-Assembled"],
+      "Fascia":["Pre-Assembled"],
+      "Flashing":["Pre-Assembled"]
+    },
+    "Steel":{
+      "Coping":["Pre-Assembled"],
+      "Drainage":["Pre-Assembled"],
+      "Fascia":["Pre-Assembled"],
+      "Flashing":["Pre-Assembled"]
+    },
+    "TPO":{
+      "Roof Vent":["Off-Ridge Vent", "Roof Vent"],
+    },
+    "Wood":{
+      "Paver":["Prepared Roof Cover"]
+    }
   }
 }
