@@ -1578,8 +1578,216 @@
     },
     "Multi-Polymer Blend":{
       "Roof Cover":["Prepared Roof Cover"]
+    },
+    "Other/Not Listed":{
+      "Roof Panel":["Prepared Roof Cover"],
+      "Roof Vent":["Ridge Vent"],
+      "Slip Sheet":["Roll Goods"],
+      "Underlayment":["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "Panel":{
+      "Photovoltaic":["Prepared Roof Cover"]
+    },
+    "Polyester-Uncoated":{
+      "Reinforcement":["Roll Goods"],
+      "Underlayment":["Roll Goods"]
+    },
+    "Polymer":{
+      "Roof Vent":["Ridge Vent", "Roll Goods"],
+      "Underlayment":["Roll Goods"]
+    },
+    "Polypropylene":{
+      "Roof Vent":["Off-Ridge Vent", "Ridge Vent", "Roll Goods"],
+      "Shingle":["Panel", "Shingles"],
+      "Siding":["Panel", "Shingles"],
+      "Underlayment":["Roll Goods"],
+      "Ventilation":["Off-Ridge Vent","Roll Goods"]
+    },
+    "Polyvinyl Chloride (PVC)":{
+      "Roof Vent":["Ridge Vent"],
+      "Shingle":["Prepared Roof Cover"]
+    },
+    "Porcelain":{
+      "Tile":["Prepared Roof Cover", "Tile"]
+    },
+    "Recycled Fiber and Plastic":{
+      "Shingle":["Tile"]
+    },
+    "SBR-Fiberglass Reinforced":{
+      "Underlayment":["Roll Goods"]
+    },
+    "SBS":{
+      "Air Barrier":["Roll Goods"],
+      "Underlayment":["Roll Goods"],
+      "Vapor Retarder":["Roll Goods"]
+    },
+    "SBS-Composite Reinforced":{
+      "Underlayment":["Roll Goods"]
+    },
+    "SBS-Fiberglass Reinforced":{
+      "Underlayment":["Roll Goods"]
+    },
+    "SBS-Polyester Reinforced":{
+      "Underlayment":["Roll Goods"]
+    },
+    "Shingles":{
+      "Shingle":["Prepared Roof Cover"]
+    },
+    "Silicone":{
+      "Underlayment":["Roll Goods"]
+    },
+    "Stainless Steel":{
+      "Hip and Ridge":["Metal"]
+    },
+    "Steel":{
+      "Roof Panel":["Panel", "Prepared Roof Cover"],
+      "Shingle":["Prepared Roof Cover", "Shingles"]
+    },
+    "Stones":{
+      "Underlayment":["Roll Goods"]
+    },
+    "Synthetic":{
+      "Shingle":["Prepared Roof Cover"],
+      "Underlayment":["Roll Goods"]
+    },
+    "Synthetic, Composite":{
+      "Shingle":["Shingles", "Tile"],
+      "Slate":["Shingles"],
+      "Underlayment":["Roll Goods"]
+    },
+    "Synthetic, Spun-Bond":{
+      "Roof Vent":["Off-Ridge Vent", "Roll Goods"],
+      "Underlayment":["Roll Goods"],
+      "Ventilation":["Off-Ridge Vent","Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "Synthetic, Woven":{
+      "Underlayment":["Roll Goods"]
+    },
+    "Wood":{
+      "Shingle":["Prepared Roof Cover", "Shingles"],
+    },
+    "Wood Fiber":{
+      "Cap Ply":["Panel"],
+      "Insulation":["Panel"],
+      "Underlayment":["Panel"]
+    },
+    "Zinc":{
+      "Roof Panel":["Panel"]
     }
   },
   "Waterproofing":{
+    "Acrylic":{
+      "Waterproofing System":["Liquids"]
+    },
+    "Asphalt Rubberized":{
+      "Underlayment":["Roll Goods"],
+      "Vapor Barrier":["Roll Goods"],
+      "Waterproofing System":["Liquids"],
+      "Water-Resistive Barrier (WRB)":["Liquids", "Roll Goods"]
+    },
+    "Butyl":{
+      "Flashing":["Roll Goods"]
+    },
+    "EPDM":{
+      "Flashing":["Roll Goods"],
+      "Protection Course":["Roll Goods"],
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "Epoxy":{
+      "Primers/Treatments":["Liquids"],
+      "Vapor Retarder":["Liquids"]
+    },
+    "Metal":{
+      "Waterproofing System":["Metal", "Pre-Assembled"]
+    },
+    "Other/Not Listed":{
+      "Base Coat":["Liquids"],
+      "Vapor Retarder":["Liquids"],
+      "Waterproofing System":["Liquids"],
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "PMMA":{
+      "Base Coat":["Liquids"],
+      "Drainage":["Roll Goods"],
+      "Finish Coat":["Liquids"],
+      "Primers/Treatments":["Liquids"],
+      "Roof Coating":["Liquids"],
+      "Waterproofing System":["Liquids"],
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "Polyester-Uncoated":{
+      "Reinforcement":["Roll Goods"],
+      "Waterproofing System":["Roll Goods"]
+    },
+    "Polymer":{
+      "Underlayment":["Roll Goods"],
+      "Vapor Barrier":["Roll Goods"],
+      "Waterproofing System":["Polymer"],
+      "Water-Resistive Barrier (WRB)":["Liquids", "Roll Goods"]
+    },
+    "Polypropylene (PP)":{
+      "Drainage":["Roll Goods"]
+    },
+    "Polystyrene, Extruded (XPS)":{
+      "Drainage":["Board Stock"]
+    },
+    "Polyurea":{
+      "Base Coat":["Liquids"],
+      "Finish Coat":["Liquids"],
+      "Maintenance Coatings":["Liquids"],
+      "Sealant":["Liquids"],
+      "Waterproofing System":["Liquids"]
+    },
+    "Polyurethane":{
+      "Finish Coat":["Liquids"],
+      "Maintenance Coatings":["Liquids"],
+      "Roof Coating":["Liquids"],
+      "Waterproofing System":["Liquids"],
+      "Water-Resistive Barrier (WRB)":["Liquids"]
+    },
+    "PVC/KEE Copolymer":{
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "SBS":{
+      "Waterproofing System":["Roll Goods"]
+    },
+    "SBS-Composite Reinforced":{
+      "Underlayment":["Roll Goods"],
+      "Vapor Barrier":["Roll Goods"]
+    },
+    "SBS-Fiberglass Reinforced":{
+      "Protection Course":["Roll Goods"],
+      "Underlayment":["Roll Goods"],
+      "Waterproofing System":["Roll Goods"]
+    },
+    "SBS-Polyester Reinforced":{
+      "Protection Course":["Roll Goods"],
+      "Underlayment":["Roll Goods"],
+      "Waterproofing System":["Roll Goods"]
+    },
+    "Silicone":{
+      "Roof Coating":["Liquids"],
+      "Sealant":["Liquids"]
+    },
+    "Stones":{
+      "Underlayment":["Roll Goods"]
+    },
+    "STPE":{
+      "Flashing":["Liquids"]
+    },
+    "Synthetic":{
+      "Waterproofing System":["Roll Goods"]
+    },
+    "Synthetic, Composite":{
+      "Drainage":["Board Stock", "Roll Goods"]
+    },
+    "Synthetic, Woven":{
+      "Water-Resistive Barrier (WRB)":["Roll Goods"]
+    },
+    "TPO":{
+      "Waterproofing System":["Metal", "Pre-Assembled"]
+    }
   }
 }
