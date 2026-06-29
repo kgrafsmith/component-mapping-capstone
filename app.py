@@ -87,6 +87,6 @@ st.subheader("Don't see your mapping? Submit a request")
 st.markdown(
     """
     👉 Submit a request here:
-    https://forms.gle/5QVbRwdN8dg2FiyT6
+    https://forms.office.com/Pages/ResponsePage.aspx?id=BP0ZkiIsZECVetvKJbSpjFH7PB2hgExHqBx7f12zMDRUMVRPNlBOTjBLTTRVU1lLNFo3MVpOTFBPRC4u
     """
 )
