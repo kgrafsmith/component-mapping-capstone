@@ -206,6 +206,7 @@
       "Water-Resistive Barrier (WRB)":["Liquids", "Polymer"]
     },
     "Asphaltic":{
+      "Cap Ply":["Roll Goods"],
       "Maintenance Coatings":["Liquids"],
       "Vapor Barrier":["Roll Goods"]
     },
@@ -219,6 +220,9 @@
     "Epoxy":{
       "Vapor Barrier":["Liquids"],
       "Vapor Retarder": ["Liquids"]
+    },
+    "Fiberglass-Uncoated":{
+      "Slip Sheet":["Roll Goods"]
     },
     "Kraft Paper":{
       "Water-Resistive Barrier (WRB)":["Roll Goods"]
@@ -399,7 +403,8 @@
       "Roof Coating":["Liquids"]
     },
     "Curing Compound":{
-      "Primers/Treatments":["Liquids"]
+      "Primers/Treatments":["Liquids"],
+      "Roof Coating":["Liquids"]
     },
     "Epoxy":{
       "Finish Coat":["Liquids"],
@@ -528,6 +533,7 @@
       "Roof Deck":["Wood"]
     },
     "Wood Fiber":{
+      "Decking":["Board Stock"],
       "Roof Deck":["Plank"]
     }
   },
@@ -1229,7 +1235,8 @@
       "Drainage":["Pre-Assembled"],
       "Fascia":["Pre-Assembled"],
       "Flashing":["Pre-Assembled"],
-      "Pre-Assembled Fastener":["Pre-Assembled"]
+      "Pre-Assembled Fastener":["Pre-Assembled"],
+      "Ventilation":["Pre-Assembled"]
     },
     "Galvanized":{
       "Clip":["Formed Metal"],
@@ -1254,7 +1261,8 @@
     "Other/Not Listed":{
       "Paver":["Prepared Roof Cover"],
       "Paver Attachment":["Pre-Assembled"],
-      "Siding":["Pre-Assembled"]
+      "Siding":["Pre-Assembled"],
+      "Welding Tool":["Other"]
     },
     "Polymer":{
       "Paver":["Pre-Assembled"],
@@ -1338,7 +1346,7 @@
       "Siding":["Panel"]
     },
     "Polyvinyl Chloride (PVC)":{
-      "Siding":["Injection Molded","Panel"],
+      "Siding":["Gypsum","Injection Molded","Panel"],
       "Soffit":["Panel", "Polymer"]
     },
     "Wood":{
@@ -1360,6 +1368,7 @@
     },
     "Asphaltic":{
       "Base Ply":["Roll Goods"],
+      "Base Sheet":["Roll Goods"],
       "Cap Ply":["Roll Goods"]
     },
     "Asphaltic-Cellulose Reinforced":{
@@ -1594,6 +1603,7 @@
       "Underlayment":["Roll Goods"]
     },
     "Polymer":{
+      "Hip and Ridge":["Joint Cover"],
       "Roof Vent":["Ridge Vent", "Roll Goods"],
       "Underlayment":["Roll Goods"]
     },
